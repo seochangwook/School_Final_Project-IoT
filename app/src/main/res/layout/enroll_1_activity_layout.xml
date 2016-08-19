@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Google mail address (ID, Password)"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/id_edit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your Google email address"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/password_google_edit"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:password="true"
+        android:textSize="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your mail password"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Tag Password"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/tag_password_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:password="true"
+        android:hint="Input Tag Password"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Scan"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="288dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* User Name"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/user_name_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* User Phone Number(Not '-')"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:id="@+id/user_phone_number_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input Phone Number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* User Address(시/구/동)"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290dp"/>
+
+    <EditText
+        android:id="@+id/user_address_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input Address" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:enabled="false"
+        android:text="Next Page"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/smart_living_logo_image"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/smart_home_symbol_image_2"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="270dp"
+        android:src="@android:drawable/ic_dialog_info" />
+
+</RelativeLayout>

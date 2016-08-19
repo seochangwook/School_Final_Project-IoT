@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/server_address_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*"
+        android:textColor="#ff0000"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+        android:text="Light State"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 :"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/light_location_1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="120dp"/>
+
+    <Switch
+        android:id="@+id/light_1_switch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="119dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_1"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="160dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="130"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이켜짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="185dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이꺼짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#cc9900"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="185dp"/>
+
+    <TextView
+        android:id="@+id/light_info_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산 중.."
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="185dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 :"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/light_location_2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="220dp"/>
+
+    <Switch
+        android:id="@+id/light_2_switch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="219dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_2"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="260dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="130"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이켜짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="285dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이꺼짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#cc9900"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="285dp"/>
+
+    <TextView
+        android:id="@+id/light_info_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산 중.."
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="285dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 :"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="320dp"/>
+
+    <TextView
+        android:id="@+id/light_location_3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="320dp"/>
+
+    <Switch
+        android:id="@+id/light_3_switch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="319dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_3"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="360dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="130"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이켜짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="385dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불이꺼짐"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#cc9900"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="385dp"/>
+
+    <TextView
+        android:id="@+id/light_info_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산 중.."
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="385dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/light"
+        android:layout_marginLeft="10dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="270dp"
+        android:src="@android:drawable/ic_dialog_info" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="210dp"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+</RelativeLayout>

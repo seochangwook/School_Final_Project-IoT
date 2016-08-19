@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seo.project">
+
+    <uses-permission android:name="android.permission.NFC" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Intro_Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAPC_f_QpTpAqf_QDHdFS_iHJHnaj6iUQY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_Motion">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_Fire">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_Motor_1_ON">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_Motor_1_OFF">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_1_ON">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_1_OFF">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_2_ON">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_2_OFF">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_3_ON">
+        </service>
+
+        <service
+            android:enabled="true"
+            android:name=".Service_Activity_LED_3_OFF">
+        </service>
+
+        <activity android:name=".MainActivity"
+                  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".GoogleMap_Activity"/>
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Enroll_1_Activity"/>
+        <activity android:name=".Enroll_Final_Activity"/>
+        <activity android:name=".Loading_Activity"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".Email_send_Activity"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".CCTV_Connection_Activity"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".Food_Poisoning_Info"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".CustomUIActivity"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".Light_Info_Activity" />
+        <activity android:name=".Temperature_Info_Activity"/>
+        <activity android:name=".Gas_Info_Activity" />
+        <activity android:name=".Humidity_Info_Activity" />
+        <activity android:name=".Dust_Info_Activity"/>
+        <activity android:name=".Water_Info_Activity"/>
+        <activity android:name=".Voice_Activity"
+            android:theme="@android:style/Theme.Dialog"/>
+
+    </application>
+
+    <permission
+        android:name="com.example.project.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+</manifest>

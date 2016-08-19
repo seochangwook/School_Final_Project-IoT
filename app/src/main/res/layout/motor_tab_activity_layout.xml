@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/server_address_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff0000"
+            android:textSize="9dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/door_image"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/door_close"/>
+
+        <Switch
+            android:id="@+id/motor_1_service"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="120dp"
+            android:textStyle="bold"
+            android:textOn="문 열림"
+            android:textOff="문 닫힘"
+            android:textColor="#ffffff"
+            android:layout_marginTop="365dp"
+            android:layout_marginLeft="98dp"/>
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/info_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="270dp"
+            android:src="@android:drawable/ic_dialog_info" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/info_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="210dp"
+            android:src="@android:drawable/ic_dialog_alert" />
+
+    </RelativeLayout>
+</ScrollView>

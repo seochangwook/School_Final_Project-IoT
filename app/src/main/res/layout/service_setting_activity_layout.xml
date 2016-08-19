@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#000000"
+   >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/server_address_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ff0000"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/image_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현관문"
+        android:layout_marginLeft="170dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="65dp"
+        android:textColor="#ffffff"/>
+
+    <Switch
+        android:id="@+id/motion_service"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="120dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="92dp"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="105dp"
+        android:src="@drawable/image_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화재"
+        android:layout_marginLeft="170dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#ffffff"/>
+
+    <Switch
+        android:id="@+id/fire_service"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="120dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="92dp"/>
+
+    <Button
+        android:id="@+id/cctv_button"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="115dp"
+        android:background="@drawable/image_3"/>
+
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/info_button_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="420dp"
+    android:layout_marginLeft="270dp"
+    android:src="@android:drawable/ic_dialog_info" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="210dp"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+</RelativeLayout>
+</ScrollView>

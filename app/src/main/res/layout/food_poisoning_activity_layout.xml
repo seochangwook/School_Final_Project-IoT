@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/index_matrix" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="* Date :"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="5dp"
+        android:text="*"
+        android:textColor="#ff0000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"
+        android:text="today"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/h3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="55dp"
+        android:text="*"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/alarm_h3_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/nomal_alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="85dp"
+        android:text="tomorrow"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/h6_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="85dp"
+        android:text="*"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/alarm_h6_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/nomal_alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="115dp"
+        android:text="theAftertomoorow"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/h9_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="115dp"
+        android:text="*"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/alarm_h9_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/nomal_alarm" />
+</RelativeLayout>

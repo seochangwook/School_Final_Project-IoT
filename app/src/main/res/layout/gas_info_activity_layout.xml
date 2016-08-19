@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/server_address_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="*"
+        android:textColor="#ff0000"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+        android:text="Gas State"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실내 적정 가스수치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp" />
+
+    <ProgressBar
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="145dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="1000"
+        android:progress="580"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#0014cc"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ff0037"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="580%"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#11ff00"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실내 현재 가스수치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="215dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="1000"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#0014cc"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100%"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#ff0037"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:id="@+id/current_gas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산 중.."
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="#11ff00"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 적당한 가스온도 판단 : "
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp" />
+
+    <TextView
+        android:id="@+id/info_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="310dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 현재상태                      :"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp" />
+
+    <TextView
+        android:id="@+id/info_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="340dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 행동강령                      : "
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp" />
+
+    <TextView
+        android:id="@+id/info_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="370dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/gas_image"
+        android:layout_marginLeft="10dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="270dp"
+        android:src="@android:drawable/ic_dialog_info" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="210dp"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+</RelativeLayout>

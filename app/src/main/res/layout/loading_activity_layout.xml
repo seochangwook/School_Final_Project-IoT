@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/progressBarStyleSmallInverse"
+        android:progressDrawable="@drawable/progressbar_custom"
+        android:id="@+id/progress_bar"/>"
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/progress_bar_status_texts"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Waitting..."/>
+</LinearLayout>

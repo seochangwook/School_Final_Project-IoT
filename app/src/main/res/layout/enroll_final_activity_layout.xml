@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 조도센서 1 위치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/light_location_1_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your location1"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 조도센서 2 위치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/light_location_2_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your location2"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 조도센서 3 위치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/light_location_3_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your location3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 모터 1 위치"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:id="@+id/motor_location_1_edit"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Input your location 1 (Control)" />
+
+    <Button
+        android:id="@+id/enroll_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp"
+        android:text="Enroll button"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="270dp"
+        android:src="@android:drawable/ic_dialog_info" />
+</RelativeLayout>

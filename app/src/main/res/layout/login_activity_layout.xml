@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Living"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="35dp"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="35dp"/>
+
+    <EditText
+        android:id="@+id/id_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="80dp"
+        android:hint="Input Google email(ID)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paswd"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="14dp"/>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="165dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:password="true"
+        android:layout_marginLeft="80dp"
+        android:hint="Input Password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="35dp"/>
+
+    <EditText
+        android:id="@+id/ip_edit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="205dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_marginLeft="80dp"
+        android:hint="Input Serer IP (X.X.X.X)"/>
+
+    <Switch
+        android:id="@+id/nfc_switch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:switchMinWidth="130dp"
+        android:textOn="NFC 켜짐"
+        android:textOff="NFC 꺼짐"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="75dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="111dp"
+        android:src="@drawable/smart_living_logo_image"/>
+
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="510dp"
+        android:text="Info"/>
+
+    <Button
+        android:id="@+id/enroll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="510dp"/>
+
+</RelativeLayout>

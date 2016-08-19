@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수신인"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/receiver_address"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Input receiver address"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메일 내용"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/mail_content"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Input mail content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:textColor="#ffffff"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="235dp"/>
+
+</RelativeLayout>

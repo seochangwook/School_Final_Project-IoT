@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Action Menual"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"/>
+
+    <TextView
+        android:id="@+id/server_address_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:text="*"
+        android:textColor="#ff0000"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/user_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textStyle="bold"
+        android:textSize="9dp"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Current sensor information *"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+    android:id="@+id/light_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="125dp"
+    android:text="*"
+    android:textColor="#ffffff"
+    android:textSize="9dp"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/light_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="145dp"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/light_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="165dp"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fire_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="185dp"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/motion_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="205dp"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/motor_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="225dp"
+        android:text="*"
+        android:textColor="#ffffff"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* How to Use and cautions *"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="285dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="315dp"
+        android:text="* 원격제어용으로 사용가능 ( ON / OFF )"
+        android:textColor="#ff0000"
+        android:textSize="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="* 사용 시 주위환경에 따라 인식률에 영향을 미칩니다."
+    android:textStyle="bold"
+    android:textSize="9dp"
+    android:textColor="#ff0000"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="335dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 반드시 인가된 사용자만 음성인식을 사용하세요."
+        android:textStyle="bold"
+        android:textSize="9dp"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="355dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 사용법 : '서비스명'"
+        android:textStyle="bold"
+        android:textSize="9dp"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="375dp"/>
+
+    <Button
+        android:id="@+id/voice_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mike"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="410dp"/>
+
+</RelativeLayout>

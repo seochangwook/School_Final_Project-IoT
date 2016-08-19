@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/server_address_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff0000"
+            android:textSize="9dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life Help"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역이름"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="86dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/area_name_do"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="79dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="93dp"
+            android:hint="도"
+            android:background="@android:drawable/editbox_background_normal"/>
+
+        <EditText
+            android:id="@+id/area_name_si_gu"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="79dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="163dp"
+            android:hint="시구"
+            android:background="@android:drawable/editbox_background_normal"/>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="검색"
+            android:textStyle="bold"
+            android:layout_marginTop="77dp"
+            android:layout_marginLeft="278dp"/>
+
+        <ImageButton
+            android:id="@+id/cold_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/option_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감기지수"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="75dp"/>
+
+        <ImageButton
+            android:id="@+id/sun_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/option_11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자외선지수"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="162dp"/>
+
+        <ImageButton
+            android:id="@+id/feel_temp_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/option_12"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="체감온도"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="255dp"/>
+
+        <ImageButton
+            android:id="@+id/flower_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/option_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="꽃가루수치"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="72dp"/>
+
+        <ImageButton
+            android:id="@+id/cold_effect_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/option_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동상지수"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="165dp"/>
+
+        <ImageButton
+            android:id="@+id/food_poisoning_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/option_7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="식중독지수"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="252dp"/>
+
+        <ImageButton
+            android:id="@+id/discomfort_index"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/option_8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="불쾌지수"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="9dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginLeft="75dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/info_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="270dp"
+            android:src="@android:drawable/ic_dialog_info" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/info_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="210dp"
+            android:src="@android:drawable/ic_dialog_alert" />
+
+    </RelativeLayout>
+</ScrollView>

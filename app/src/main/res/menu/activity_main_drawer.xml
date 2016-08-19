@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Life Sensor">
+            <menu>
+                <item
+                    android:id="@+id/nav_light"
+                    android:title="Light" />
+                <item
+                    android:id="@+id/nav_temperature"
+                    android:title="Temperature" />
+                <item
+                    android:id="@+id/nav_gas"
+                    android:title="Gas" />
+                <item
+                    android:id="@+id/nav_humidity"
+                    android:title="Humidity" />
+                <item
+                    android:id="@+id/nav_dust"
+                    android:title="dust" />
+                <item
+                    android:id="@+id/nav_water"
+                    android:title="water(rain)" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
